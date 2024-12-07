@@ -12,7 +12,6 @@ import jakarta.persistence.Table;
 public class Customer 
 {
      @Id
-     @GeneratedValue(strategy = GenerationType.IDENTITY)
      @Column(name="customer_id")
      private int id;
      @Column(name="customer_name",nullable=false,length = 50)

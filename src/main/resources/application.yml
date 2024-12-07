@@ -6,7 +6,7 @@ spring:
     name: SpringBootMVCSDPProject
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/springbootmvcsdpproject21
+    url: jdbc:mysql://localhost:3306/labexam
     username: root
     password: Somsekhar@21
   jpa:
